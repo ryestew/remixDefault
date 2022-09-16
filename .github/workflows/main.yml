@@ -9,5 +9,5 @@ jobs:
       - name: Run SUT Action
         uses: EthereumRemix/sol-test@v1
         with:
-            test-path: 'tests'
+            test-path: 'tests/Ballot_test.sol'
             compiler-version: '0.8.15'
